@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090A6C3D197F42E1003D6D02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A6C3C197F42E1003D6D02 /* Cocoa.framework */; };
+		090A6C47197F42E1003D6D02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C45197F42E1003D6D02 /* InfoPlist.strings */; };
+		090A6C49197F42E1003D6D02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C48197F42E1003D6D02 /* main.m */; };
+		090A6C4D197F42E1003D6D02 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C4B197F42E1003D6D02 /* Credits.rtf */; };
+		090A6C50197F42E1003D6D02 /* TimerousAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C4F197F42E1003D6D02 /* TimerousAppDelegate.m */; };
+		090A6C53197F42E1003D6D02 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C51197F42E1003D6D02 /* MainMenu.xib */; };
+		090A6C55197F42E1003D6D02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C54197F42E1003D6D02 /* Images.xcassets */; };
+		090A6C5C197F42E1003D6D02 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A6C5B197F42E1003D6D02 /* XCTest.framework */; };
+		090A6C5D197F42E1003D6D02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A6C3C197F42E1003D6D02 /* Cocoa.framework */; };
+		090A6C65197F42E1003D6D02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C63197F42E1003D6D02 /* InfoPlist.strings */; };
+		090A6C67197F42E1003D6D02 /* TimerousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C66197F42E1003D6D02 /* TimerousTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090A6C5E197F42E1003D6D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090A6C31197F42E1003D6D02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090A6C38197F42E1003D6D02;
+			remoteInfo = Timerous;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090A6C39197F42E1003D6D02 /* Timerous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timerous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090A6C3C197F42E1003D6D02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		090A6C3F197F42E1003D6D02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		090A6C40197F42E1003D6D02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		090A6C41197F42E1003D6D02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		090A6C44197F42E1003D6D02 /* Timerous-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timerous-Info.plist"; sourceTree = "<group>"; };
+		090A6C46197F42E1003D6D02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		090A6C48197F42E1003D6D02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090A6C4A197F42E1003D6D02 /* Timerous-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timerous-Prefix.pch"; sourceTree = "<group>"; };
+		090A6C4C197F42E1003D6D02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		090A6C4E197F42E1003D6D02 /* TimerousAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerousAppDelegate.h; sourceTree = "<group>"; };
+		090A6C4F197F42E1003D6D02 /* TimerousAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerousAppDelegate.m; sourceTree = "<group>"; };
+		090A6C52197F42E1003D6D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		090A6C54197F42E1003D6D02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		090A6C5A197F42E1003D6D02 /* TimerousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090A6C5B197F42E1003D6D02 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		090A6C62197F42E1003D6D02 /* TimerousTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerousTests-Info.plist"; sourceTree = "<group>"; };
+		090A6C64197F42E1003D6D02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		090A6C66197F42E1003D6D02 /* TimerousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerousTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090A6C36197F42E1003D6D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A6C3D197F42E1003D6D02 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090A6C57197F42E1003D6D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A6C5D197F42E1003D6D02 /* Cocoa.framework in Frameworks */,
+				090A6C5C197F42E1003D6D02 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090A6C30197F42E1003D6D02 = {
+			isa = PBXGroup;
+			children = (
+				090A6C42197F42E1003D6D02 /* Timerous */,
+				090A6C60197F42E1003D6D02 /* TimerousTests */,
+				090A6C3B197F42E1003D6D02 /* Frameworks */,
+				090A6C3A197F42E1003D6D02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090A6C3A197F42E1003D6D02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C39197F42E1003D6D02 /* Timerous.app */,
+				090A6C5A197F42E1003D6D02 /* TimerousTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090A6C3B197F42E1003D6D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C3C197F42E1003D6D02 /* Cocoa.framework */,
+				090A6C5B197F42E1003D6D02 /* XCTest.framework */,
+				090A6C3E197F42E1003D6D02 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		090A6C3E197F42E1003D6D02 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C3F197F42E1003D6D02 /* AppKit.framework */,
+				090A6C40197F42E1003D6D02 /* CoreData.framework */,
+				090A6C41197F42E1003D6D02 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		090A6C42197F42E1003D6D02 /* Timerous */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C4E197F42E1003D6D02 /* TimerousAppDelegate.h */,
+				090A6C4F197F42E1003D6D02 /* TimerousAppDelegate.m */,
+				090A6C51197F42E1003D6D02 /* MainMenu.xib */,
+				090A6C54197F42E1003D6D02 /* Images.xcassets */,
+				090A6C43197F42E1003D6D02 /* Supporting Files */,
+			);
+			path = Timerous;
+			sourceTree = "<group>";
+		};
+		090A6C43197F42E1003D6D02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C44197F42E1003D6D02 /* Timerous-Info.plist */,
+				090A6C45197F42E1003D6D02 /* InfoPlist.strings */,
+				090A6C48197F42E1003D6D02 /* main.m */,
+				090A6C4A197F42E1003D6D02 /* Timerous-Prefix.pch */,
+				090A6C4B197F42E1003D6D02 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		090A6C60197F42E1003D6D02 /* TimerousTests */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C66197F42E1003D6D02 /* TimerousTests.m */,
+				090A6C61197F42E1003D6D02 /* Supporting Files */,
+			);
+			path = TimerousTests;
+			sourceTree = "<group>";
+		};
+		090A6C61197F42E1003D6D02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090A6C62197F42E1003D6D02 /* TimerousTests-Info.plist */,
+				090A6C63197F42E1003D6D02 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090A6C38197F42E1003D6D02 /* Timerous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090A6C6A197F42E1003D6D02 /* Build configuration list for PBXNativeTarget "Timerous" */;
+			buildPhases = (
+				090A6C35197F42E1003D6D02 /* Sources */,
+				090A6C36197F42E1003D6D02 /* Frameworks */,
+				090A6C37197F42E1003D6D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timerous;
+			productName = Timerous;
+			productReference = 090A6C39197F42E1003D6D02 /* Timerous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090A6C59197F42E1003D6D02 /* TimerousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090A6C6D197F42E1003D6D02 /* Build configuration list for PBXNativeTarget "TimerousTests" */;
+			buildPhases = (
+				090A6C56197F42E1003D6D02 /* Sources */,
+				090A6C57197F42E1003D6D02 /* Frameworks */,
+				090A6C58197F42E1003D6D02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090A6C5F197F42E1003D6D02 /* PBXTargetDependency */,
+			);
+			name = TimerousTests;
+			productName = TimerousTests;
+			productReference = 090A6C5A197F42E1003D6D02 /* TimerousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090A6C31197F42E1003D6D02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Timerous;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Park Eung-ju";
+				TargetAttributes = {
+					090A6C59197F42E1003D6D02 = {
+						TestTargetID = 090A6C38197F42E1003D6D02;
+					};
+				};
+			};
+			buildConfigurationList = 090A6C34197F42E1003D6D02 /* Build configuration list for PBXProject "Timerous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 090A6C30197F42E1003D6D02;
+			productRefGroup = 090A6C3A197F42E1003D6D02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090A6C38197F42E1003D6D02 /* Timerous */,
+				090A6C59197F42E1003D6D02 /* TimerousTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090A6C37197F42E1003D6D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A6C47197F42E1003D6D02 /* InfoPlist.strings in Resources */,
+				090A6C55197F42E1003D6D02 /* Images.xcassets in Resources */,
+				090A6C4D197F42E1003D6D02 /* Credits.rtf in Resources */,
+				090A6C53197F42E1003D6D02 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090A6C58197F42E1003D6D02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A6C65197F42E1003D6D02 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090A6C35197F42E1003D6D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A6C50197F42E1003D6D02 /* TimerousAppDelegate.m in Sources */,
+				090A6C49197F42E1003D6D02 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090A6C56197F42E1003D6D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090A6C67197F42E1003D6D02 /* TimerousTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090A6C5F197F42E1003D6D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090A6C38197F42E1003D6D02 /* Timerous */;
+			targetProxy = 090A6C5E197F42E1003D6D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		090A6C45197F42E1003D6D02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090A6C46197F42E1003D6D02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		090A6C4B197F42E1003D6D02 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090A6C4C197F42E1003D6D02 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		090A6C51197F42E1003D6D02 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090A6C52197F42E1003D6D02 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		090A6C63197F42E1003D6D02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090A6C64197F42E1003D6D02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090A6C68197F42E1003D6D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		090A6C69197F42E1003D6D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		090A6C6B197F42E1003D6D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerous/Timerous-Prefix.pch";
+				INFOPLIST_FILE = "Timerous/Timerous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		090A6C6C197F42E1003D6D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerous/Timerous-Prefix.pch";
+				INFOPLIST_FILE = "Timerous/Timerous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		090A6C6E197F42E1003D6D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timerous.app/Contents/MacOS/Timerous";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerous/Timerous-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimerousTests/TimerousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		090A6C6F197F42E1003D6D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timerous.app/Contents/MacOS/Timerous";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerous/Timerous-Prefix.pch";
+				INFOPLIST_FILE = "TimerousTests/TimerousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090A6C34197F42E1003D6D02 /* Build configuration list for PBXProject "Timerous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090A6C68197F42E1003D6D02 /* Debug */,
+				090A6C69197F42E1003D6D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090A6C6A197F42E1003D6D02 /* Build configuration list for PBXNativeTarget "Timerous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090A6C6B197F42E1003D6D02 /* Debug */,
+				090A6C6C197F42E1003D6D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		090A6C6D197F42E1003D6D02 /* Build configuration list for PBXNativeTarget "TimerousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090A6C6E197F42E1003D6D02 /* Debug */,
+				090A6C6F197F42E1003D6D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090A6C31197F42E1003D6D02 /* Project object */;
+}
