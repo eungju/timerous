@@ -68,8 +68,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="New" id="LnH-L2-z0W">
                                     <items>
-                                        <menuItem title="Stop Watch" id="Ix7-K8-bKF">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        <menuItem title="Stop Watch" keyEquivalent="n" id="Ix7-K8-bKF">
                                             <connections>
                                                 <action selector="addStopWatch:" target="Mbv-gv-Zru" id="YbW-JC-bll"/>
                                             </connections>
