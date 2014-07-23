@@ -65,7 +65,7 @@
     UInt seconds = elapsed % 60;
     UInt minutes = (elapsed / 60) % 60;
     UInt hours = (elapsed / 60) / 60;
-    [display setStringValue:[NSString stringWithFormat:@"%02u:%02u:%02u", hours, minutes, seconds]];
+    [display setStringValue:[NSString stringWithFormat:@"%02uh %02um %02us", hours, minutes, seconds]];
 }
 
 - (void)windowWillClose:(NSNotification *)notification

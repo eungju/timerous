@@ -9,7 +9,7 @@
                 <outlet property="display" destination="re4-j0-X6B" id="01X-Vj-V0q"/>
                 <outlet property="resetButton" destination="T8p-1M-5gM" id="naA-Tt-SJ1"/>
                 <outlet property="startButton" destination="1B7-Iy-yRA" id="aox-aq-kv5"/>
-                <outlet property="stopButton" destination="hY5-0g-rih" id="oqg-dh-vpo"/>
+                <outlet property="stopButton" destination="wyn-wR-CSf" id="rMO-3P-bWI"/>
                 <outlet property="window" destination="Vh6-bs-QdQ" id="MKk-TR-wg0"/>
             </connections>
         </customObject>
@@ -18,14 +18,14 @@
         <window title="Stop Watch" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="Vh6-bs-QdQ">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="416" height="163"/>
+            <rect key="contentRect" x="335" y="390" width="482" height="163"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
             <view key="contentView" id="KeE-0h-u5i">
-                <rect key="frame" x="0.0" y="0.0" width="416" height="163"/>
+                <rect key="frame" x="0.0" y="0.0" width="482" height="163"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1B7-Iy-yRA">
-                        <rect key="frame" x="20" y="18" width="120" height="25"/>
+                        <rect key="frame" x="20" y="18" width="140" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundTextured" title="Start" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Bc-LQ-c6u">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -35,19 +35,19 @@
                             <action selector="start:" target="-2" id="lrN-o5-8he"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hY5-0g-rih">
-                        <rect key="frame" x="148" y="18" width="120" height="25"/>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wyn-wR-CSf">
+                        <rect key="frame" x="171" y="18" width="140" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="roundTextured" title="Stop" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xoe-hF-sS7">
+                        <buttonCell key="cell" type="roundTextured" title="Stop" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xnV-Ez-ZNe">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="stop:" target="-2" id="4Sa-I8-IkI"/>
+                            <action selector="stop:" target="-2" id="qJn-Bv-S10"/>
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T8p-1M-5gM">
-                        <rect key="frame" x="276" y="18" width="120" height="25"/>
+                        <rect key="frame" x="322" y="18" width="140" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="roundTextured" title="Reset" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dv7-SB-2mv">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -58,10 +58,10 @@
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="re4-j0-X6B">
-                        <rect key="frame" x="22" y="50" width="374" height="93"/>
+                        <rect key="frame" x="22" y="59" width="440" height="84"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" allowsUndo="NO" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00:00:00" drawsBackground="YES" id="xmw-en-utP">
-                            <font key="font" size="70" name="Monaco"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" allowsUndo="NO" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00h 00m 00s" drawsBackground="YES" id="xmw-en-utP">
+                            <font key="font" size="64" name="Monaco"/>
                             <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </textFieldCell>
