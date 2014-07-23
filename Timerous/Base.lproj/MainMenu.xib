@@ -11,6 +11,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application"/>
+        <customObject id="Mbv-gv-Zru" customClass="TimerousController"/>
         <customObject id="Voe-Tx-rLC" customClass="TimerousAppDelegate"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
@@ -70,7 +71,7 @@
                                         <menuItem title="Stop Watch" id="Ix7-K8-bKF">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="addStopWatch:" target="Voe-Tx-rLC" id="HuW-x1-QpR"/>
+                                                <action selector="addStopWatch:" target="Mbv-gv-Zru" id="YbW-JC-bll"/>
                                             </connections>
                                         </menuItem>
                                     </items>

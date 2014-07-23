@@ -7,7 +7,7 @@
 //
 
 #import "StopWatchController.h"
-#import "TimerousAppDelegate.h"
+#import "TimerousController.h"
 
 @implementation StopWatchController
 
@@ -20,7 +20,7 @@
     return self;
 }
 
-- (id)initWithMaster: masterController
+- (id)initWithMaster:(TimerousController *)masterController
 {
     self = [self init];
     if (self) {

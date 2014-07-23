@@ -11,12 +11,5 @@
 #import "StopWatchController.h"
 
 @interface TimerousAppDelegate : NSObject <NSApplicationDelegate>
-{
-    NSMutableArray *timerControllers;
-}
-
-- (void)registerTimerController:(StopWatchController *)timerController;
-
-- (void)unregisterTimerController:(StopWatchController *)timerController;
 
 @end
