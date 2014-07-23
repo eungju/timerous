@@ -14,4 +14,13 @@
 {
 }
 
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return TRUE;
+}
+
 @end
