@@ -7,7 +7,8 @@ A Timer.
 
 TODO:
 
-* Multiple timers.
+* ~~Multiple timers.~~
 * Add countdown timer.
 * Add wall clock.
+* Sequence of timers?
 

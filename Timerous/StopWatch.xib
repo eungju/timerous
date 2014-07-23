@@ -30,6 +30,7 @@
                         <buttonCell key="cell" type="roundTextured" title="Start" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Bc-LQ-c6u">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent">s</string>
                         </buttonCell>
                         <connections>
                             <action selector="start:" target="-2" id="lrN-o5-8he"/>
@@ -41,6 +42,7 @@
                         <buttonCell key="cell" type="roundTextured" title="Stop" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xnV-Ez-ZNe">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent">t</string>
                         </buttonCell>
                         <connections>
                             <action selector="stop:" target="-2" id="qJn-Bv-S10"/>
@@ -52,6 +54,7 @@
                         <buttonCell key="cell" type="roundTextured" title="Reset" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dv7-SB-2mv">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent">r</string>
                         </buttonCell>
                         <connections>
                             <action selector="reset:" target="-2" id="RG4-Uv-B3L"/>
