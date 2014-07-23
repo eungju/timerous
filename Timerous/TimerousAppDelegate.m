@@ -13,14 +13,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     timerControllers = [[NSMutableArray alloc] init];
-    
-    for (int i = 0; i < 2; i++) {
-        StopWatchController *stopWatchController = [[StopWatchController alloc] init];
-        [stopWatchController showWindow:self];
-        [timerControllers addObject:stopWatchController];
-    }
-
     [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateTimers) userInfo:nil repeats: YES];
+    [self addStopWatch: self];
 }
 
 - (void)updateTimers
@@ -30,6 +24,23 @@
     while (timerController = [enumerator nextObject]) {
         [timerController updateDisplay];
     }
+}
+
+- (IBAction)addStopWatch:(id)sender {
+    StopWatchController *stopWatchController = [[StopWatchController alloc] initWithMaster:self];
+    [stopWatchController showWindow:self];
+}
+
+- (void)registerTimerController:(StopWatchController *)timerController
+{
+    NSLog(@"Register %@.", timerController);
+    [timerControllers addObject:timerController];
+}
+
+- (void)unregisterTimerController:(StopWatchController *)timerController
+{
+    NSLog(@"Unregister %@.", timerController);
+    [timerControllers removeObject: timerController];
 }
 
 @end

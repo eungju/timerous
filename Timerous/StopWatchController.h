@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "StopWatch.h"
 
-@interface StopWatchController : NSWindowController
+@class TimerousAppDelegate;
+
+@interface StopWatchController : NSWindowController <NSWindowDelegate>
 {
+    TimerousAppDelegate *master;
     StopWatch *stopWatch;
     IBOutlet NSTextField *display;
     IBOutlet NSButton *startButton;
@@ -18,6 +22,7 @@
     IBOutlet NSButton *resetButton;
 }
 
+- (id)initWithMaster:(TimerousAppDelegate *)masterController;
 - (IBAction)start:(id)sender;
 - (IBAction)stop:(id)sender;
 - (IBAction)reset:(id)sender;

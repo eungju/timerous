@@ -7,6 +7,7 @@
 //
 
 #import "StopWatchController.h"
+#import "TimerousAppDelegate.h"
 
 @implementation StopWatchController
 
@@ -15,13 +16,28 @@
     self = [super initWithWindowNibName:@"StopWatch"];
     if (self) {
         stopWatch = [[StopWatch alloc] init];
-        [self reset: self];
     }
     return self;
 }
 
+- (id)initWithMaster: masterController
+{
+    self = [self init];
+    if (self) {
+        master = masterController;
+        [master registerTimerController: self];
+    }
+    return self;
+}
+
+- (void)windowDidLoad
+{
+    [self reset: self];
+}
+
 - (IBAction)start:(id)sender
 {
+    NSLog(@"Start %@", self);
     [stopWatch start];
     [startButton setEnabled: FALSE];
     [stopButton setEnabled: TRUE];
@@ -29,6 +45,7 @@
 
 - (IBAction)stop:(id)sender
 {
+    NSLog(@"Stop %@", self);
     [stopWatch stop];
     [startButton setEnabled: TRUE];
     [stopButton setEnabled: FALSE];
@@ -36,6 +53,7 @@
 
 - (IBAction)reset:(id)sender
 {
+    NSLog(@"Reset %@", self);
     [stopWatch reset];
     [startButton setEnabled: TRUE];
     [stopButton setEnabled: FALSE];
@@ -48,6 +66,13 @@
     UInt minutes = (elapsed / 60) % 60;
     UInt hours = (elapsed / 60) / 60;
     [display setStringValue:[NSString stringWithFormat:@"%02u:%02u:%02u", hours, minutes, seconds]];
+}
+
+- (void)windowWillClose:(NSNotification *)notification
+{
+    if (master != nil) {
+        [master unregisterTimerController: self];
+    }
 }
 
 @end

@@ -14,4 +14,9 @@
 {
     NSMutableArray *timerControllers;
 }
+
+- (void)registerTimerController:(StopWatchController *)timerController;
+
+- (void)unregisterTimerController:(StopWatchController *)timerController;
+
 @end
