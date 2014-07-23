@@ -14,7 +14,7 @@
 
 @interface StopWatchController : NSWindowController <NSWindowDelegate>
 {
-    TimerousController *master;
+    __weak TimerousController *master;
     StopWatch *stopWatch;
     IBOutlet NSTextField *display;
     IBOutlet NSButton *startButton;
