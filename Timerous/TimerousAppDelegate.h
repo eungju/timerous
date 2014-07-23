@@ -7,17 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "StopWatch.h"
+
+#import "StopWatchController.h"
 
 @interface TimerousAppDelegate : NSObject <NSApplicationDelegate>
 {
-    StopWatch *stopWatch;
+    NSMutableArray *timerControllers;
 }
-
-@property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet NSTextField *display;
-@property (weak) IBOutlet NSButton *startButton;
-@property (weak) IBOutlet NSButton *stopButton;
-@property (weak) IBOutlet NSButton *resetButton;
-
 @end

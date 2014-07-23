@@ -19,6 +19,8 @@
 		090A6C65197F42E1003D6D02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C63197F42E1003D6D02 /* InfoPlist.strings */; };
 		090A6C67197F42E1003D6D02 /* TimerousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C66197F42E1003D6D02 /* TimerousTests.m */; };
 		090A6C72197F45FB003D6D02 /* StopWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C71197F45FB003D6D02 /* StopWatch.m */; };
+		090A6C75197F8622003D6D02 /* StopWatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C74197F8622003D6D02 /* StopWatchController.m */; };
+		090A6C77197F99D6003D6D02 /* StopWatch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C76197F99D6003D6D02 /* StopWatch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		090A6C66197F42E1003D6D02 /* TimerousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerousTests.m; sourceTree = "<group>"; };
 		090A6C70197F45FB003D6D02 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
 		090A6C71197F45FB003D6D02 /* StopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatch.m; sourceTree = "<group>"; };
+		090A6C73197F8622003D6D02 /* StopWatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchController.h; sourceTree = "<group>"; };
+		090A6C74197F8622003D6D02 /* StopWatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchController.m; sourceTree = "<group>"; };
+		090A6C76197F99D6003D6D02 /* StopWatch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopWatch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +126,13 @@
 				090A6C4E197F42E1003D6D02 /* TimerousAppDelegate.h */,
 				090A6C4F197F42E1003D6D02 /* TimerousAppDelegate.m */,
 				090A6C51197F42E1003D6D02 /* MainMenu.xib */,
+				090A6C76197F99D6003D6D02 /* StopWatch.xib */,
 				090A6C70197F45FB003D6D02 /* StopWatch.h */,
 				090A6C71197F45FB003D6D02 /* StopWatch.m */,
 				090A6C54197F42E1003D6D02 /* Images.xcassets */,
 				090A6C43197F42E1003D6D02 /* Supporting Files */,
+				090A6C73197F8622003D6D02 /* StopWatchController.h */,
+				090A6C74197F8622003D6D02 /* StopWatchController.m */,
 			);
 			path = Timerous;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 				090A6C55197F42E1003D6D02 /* Images.xcassets in Resources */,
 				090A6C4D197F42E1003D6D02 /* Credits.rtf in Resources */,
 				090A6C53197F42E1003D6D02 /* MainMenu.xib in Resources */,
+				090A6C77197F99D6003D6D02 /* StopWatch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090A6C50197F42E1003D6D02 /* TimerousAppDelegate.m in Sources */,
+				090A6C75197F8622003D6D02 /* StopWatchController.m in Sources */,
 				090A6C72197F45FB003D6D02 /* StopWatch.m in Sources */,
 				090A6C49197F42E1003D6D02 /* main.m in Sources */,
 			);
