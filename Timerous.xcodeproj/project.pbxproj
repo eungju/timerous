@@ -18,6 +18,7 @@
 		090A6C5D197F42E1003D6D02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090A6C3C197F42E1003D6D02 /* Cocoa.framework */; };
 		090A6C65197F42E1003D6D02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090A6C63197F42E1003D6D02 /* InfoPlist.strings */; };
 		090A6C67197F42E1003D6D02 /* TimerousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C66197F42E1003D6D02 /* TimerousTests.m */; };
+		090A6C72197F45FB003D6D02 /* StopWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A6C71197F45FB003D6D02 /* StopWatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		090A6C62197F42E1003D6D02 /* TimerousTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerousTests-Info.plist"; sourceTree = "<group>"; };
 		090A6C64197F42E1003D6D02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		090A6C66197F42E1003D6D02 /* TimerousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerousTests.m; sourceTree = "<group>"; };
+		090A6C70197F45FB003D6D02 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		090A6C71197F45FB003D6D02 /* StopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				090A6C4E197F42E1003D6D02 /* TimerousAppDelegate.h */,
 				090A6C4F197F42E1003D6D02 /* TimerousAppDelegate.m */,
 				090A6C51197F42E1003D6D02 /* MainMenu.xib */,
+				090A6C70197F45FB003D6D02 /* StopWatch.h */,
+				090A6C71197F45FB003D6D02 /* StopWatch.m */,
 				090A6C54197F42E1003D6D02 /* Images.xcassets */,
 				090A6C43197F42E1003D6D02 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090A6C50197F42E1003D6D02 /* TimerousAppDelegate.m in Sources */,
+				090A6C72197F45FB003D6D02 /* StopWatch.m in Sources */,
 				090A6C49197F42E1003D6D02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
