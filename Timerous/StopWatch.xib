@@ -18,10 +18,10 @@
         <window title="Stop Watch" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="Vh6-bs-QdQ">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="482" height="163"/>
+            <rect key="contentRect" x="335" y="390" width="482" height="154"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
             <view key="contentView" id="KeE-0h-u5i">
-                <rect key="frame" x="0.0" y="0.0" width="482" height="163"/>
+                <rect key="frame" x="0.0" y="0.0" width="482" height="154"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1B7-Iy-yRA">
@@ -58,7 +58,7 @@
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="re4-j0-X6B">
-                        <rect key="frame" x="22" y="59" width="440" height="84"/>
+                        <rect key="frame" x="22" y="50" width="440" height="84"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" allowsUndo="NO" sendsActionOnEndEditing="YES" borderStyle="border" alignment="center" title="00h 00m 00s" drawsBackground="YES" id="xmw-en-utP">
                             <font key="font" size="64" name="Monaco"/>
